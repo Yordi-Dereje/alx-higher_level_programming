@@ -4,6 +4,7 @@
 import unittest
 max_integer = __import__('6-max_integer').max_integer
 
+
 class TestMaxInteger(unittest.TestCase):
     """Test for integers"""
 
@@ -18,6 +19,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([2, 26, 9]), 26)
         self.assertEqual(max_integer([756980, 21756, -96]), 756980)
         self.assertEqual(max_integer(), None)
+
 
 if __name__ == '__main__':
     unittest.main()
