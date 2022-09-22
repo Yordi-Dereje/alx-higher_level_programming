@@ -1,3 +1,3 @@
 #!/bin/bash
 # Get method and show the response
-curl -s -H "X-School-User-Id: 98" "$1"
+curl -s "$1" -H "X-School-User-Id: 98"
